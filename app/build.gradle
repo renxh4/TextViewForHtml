@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        renxh {
+            keyAlias 'renxh'
+            keyPassword 'renxh-android'
+            storeFile file('D:/gitub/TextViewForHtml/key_store/android-key.jks')
+            storePassword 'renxh-android'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion "24.0.3"
+    defaultConfig {
+        applicationId "com.example.jh.textviewforhtml"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        myType {
+            debuggable false
+            jniDebuggable false
+            signingConfig signingConfigs.renxh
+            renderscriptDebuggable false
+            minifyEnabled false
+            zipAlignEnabled true
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'io.reactivex:rxjava:1.1.0'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'com.android.support:recyclerview-v7:25.0.1'
+    compile 'com.facebook.fresco:fresco:1.0.0'
+    compile 'com.facebook.fresco:animated-gif:0.14.1'
+    compile 'com.facebook.fresco:webpsupport:0.14.1'
+    compile 'com.facebook.fresco:animated-webp:0.14.1'
+    compile 'com.facebook.fresco:imagepipeline-okhttp3:0.14.1'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.android.support:design:25.0.0'
+}
