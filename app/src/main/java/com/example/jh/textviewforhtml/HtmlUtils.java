@@ -16,5 +16,6 @@ public class HtmlUtils {
         Log.d("bbb","aaa");
         //haoren
         //hello,6
+        Log.d("chailei","renxiaohui");
     }
 }
