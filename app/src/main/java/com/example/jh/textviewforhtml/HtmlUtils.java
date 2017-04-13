@@ -7,6 +7,16 @@ import android.util.Log;
  */
 public class HtmlUtils {
     public HtmlUtils(){
-
+        //hello,我是master
+        Log.d("HtmlUtils","test merge");
+        Log.d("HtmlUtils","test merge again");
+        //hello renxh
+        //999
+        Log.d("aaaa","bbb");
+        Log.d("bbb","aaa");
+        //haoren
+        //hello,6
+        Log.d("chailei","renxiaohui");
+        //haha
     }
 }
