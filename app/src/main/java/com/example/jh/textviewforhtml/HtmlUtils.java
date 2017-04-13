@@ -17,5 +17,6 @@ public class HtmlUtils {
         //haoren
         //hello,6
         Log.d("chailei","renxiaohui");
+        Log.d("halou","nihao");
     }
 }
