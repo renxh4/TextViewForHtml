@@ -17,6 +17,9 @@ public class HtmlUtils {
         //haoren
         //hello,6
         Log.d("chailei","renxiaohui");
+        Log.d("halou","nihao");
+        Log.d("heihei","test");
         //haha
+        Log.d("merge master to branch","test");
     }
 }
