@@ -18,5 +18,6 @@ public class HtmlUtils {
         //hello,6
         Log.d("chailei","renxiaohui");
         Log.d("halou","nihao");
+        Log.d("heihei","test");
     }
 }
