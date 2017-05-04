@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         HtmlThreeImage.inithtml2(threeimage,mTextView);
         mRecyclerView = (RecyclerView) findViewById(R.id.recycle);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        MainAdapter mainAdapter = new MainAdapter(this,bigImageHtml);
+        MainAdapter mainAdapter = new MainAdapter(this,HtmlforImage);
         mRecyclerView.setAdapter(mainAdapter);
         mListView = (ListView) findViewById(R.id.listview);
         //mListView.setAdapter(new ListAdapter1(this,HtmlforImage));
