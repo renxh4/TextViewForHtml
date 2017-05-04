@@ -41,6 +41,9 @@
             <id>Android &gt; Lint &gt; Internationalization</id>
           </State>
           <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
             <id>Android &gt; Lint &gt; Security</id>
           </State>
           <State>
@@ -55,7 +58,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>AndroidLintHardcodedText</id>
+            <id>Android &gt; Lint &gt; Performance</id>
           </State>
         </selected-state>
       </profile-state>
